@@ -1,0 +1,30 @@
+.header {
+    /* background-color: rgb(70, 130, 180, 1); */
+    width: 100%;
+    padding: 10px;
+}
+
+.header>div{
+    /* background-color: rgb(70, 130, 180, 1); */
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+div h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 2px;
+}
+
+.target-color {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+div p {
+    font-size: 1.8rem;
+}

@@ -1,0 +1,43 @@
+.game-settings {
+    width: 100%;
+}
+
+.flex-container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.btn {
+    border: 0;
+    background-color: white;
+    padding: 5px;
+    font-size: 1.1rem;
+    color: rgb(70, 130, 180, 1);
+    transition: background-color 0.5s,color 0.5s;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(70, 130, 180, 1);
+    color: white;
+}
+
+.active {
+    background-color: rgb(70, 130, 180, 1);
+    color:white;
+}
+
+.easy-btn{
+    margin-left: auto;
+}
+
+.hard-btn{
+    margin-left: 5px;
+}
+
+.game-status {
+    flex: 0.3;
+    margin-left: auto;
+}
